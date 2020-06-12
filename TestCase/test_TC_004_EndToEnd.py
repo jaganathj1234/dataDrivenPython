@@ -50,14 +50,20 @@ def checkOut():
 
 #('data', dataGenBillingAddress.dataGeneratorBillingAddress())
 def BillingAddress(data):
-    ba = billingAddress.billingAddressClass(driver1)
-    #ba.enterCompany(data[2])
-    #ba.enterCountry()
-    #ba.enterCity(data[3])
-    #ba.address(data[4], data[5])
-    #ba.zip(data[6])
-    #ba.phoneFax(data[7], data[8])
-    ba.ContniueBut()
+
+   if driver1.find_element_by_name('billing_address_id').text == 'New Address':
+     ba = billingAddress.billingAddressClass(driver1)
+     ba.enterCompany(data[2])
+     ba.enterCountry()
+     ba.enterCity(data[3])
+     ba.address(data[4], data[5])
+     ba.zip(data[6])
+     ba.phoneFax(data[7], data[8])
+     ba.ContniueBut()
+   else:
+       ba = billingAddress.billingAddressClass(driver1)
+       ba.ContniueBut()
+
 
 
 
