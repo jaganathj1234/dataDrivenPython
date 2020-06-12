@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=83.0.4103.61)",
+      "children" : [ {
+        "name" : "test_e2e[data0]",
+        "uid" : "72f968b4f1d44846",
+        "parentUid" : "69bf9d89617f31de00b6ca6fb5e06b5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591250942933,
+          "stop" : 1591250959108,
+          "duration" : 16175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['af1@u1.com', 'ps1234', 'MT1', 'Sydney', 'ad1', 'ad2', 'zip', 'phone', 'fax']" ]
+      }, {
+        "name" : "test_e2e[data1]",
+        "uid" : "d6603558b5072585",
+        "parentUid" : "69bf9d89617f31de00b6ca6fb5e06b5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591250959306,
+          "stop" : 1591250969095,
+          "duration" : 9789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['af2@u2.com', 'ps1234', 'MT2', 'Melbourne', 'ad2', 'ad3', 'zip', 'phone', 'fax']" ]
+      } ],
+      "uid" : "69bf9d89617f31de00b6ca6fb5e06b5f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

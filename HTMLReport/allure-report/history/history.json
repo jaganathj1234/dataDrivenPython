@@ -1,0 +1,61 @@
+{
+  "7a78621661d4c51b4b70f5f4b21bdd7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15ca651aae3ac26d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591250969143,
+        "stop" : 1591250985709,
+        "duration" : 16566
+      }
+    } ]
+  },
+  "b048dccc2a614d22f23f91bdc3bb3ccf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6603558b5072585",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=83.0.4103.61)",
+      "time" : {
+        "start" : 1591250959306,
+        "stop" : 1591250969095,
+        "duration" : 9789
+      }
+    } ]
+  },
+  "8bef3e00dead9e421432cdb23d855adc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72f968b4f1d44846",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=83.0.4103.61)",
+      "time" : {
+        "start" : 1591250942933,
+        "stop" : 1591250959108,
+        "duration" : 16175
+      }
+    } ]
+  }
+}

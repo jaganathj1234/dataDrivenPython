@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jun 04 16:09:29 AEST 2020","Thu Jun 04 16:09:45 AEST 2020","16566","TestCase","test_TC_004_EndToEnd","","","","test_e2e[data2]",""
+"broken","Thu Jun 04 16:09:19 AEST 2020","Thu Jun 04 16:09:29 AEST 2020","9789","TestCase","test_TC_004_EndToEnd","","","","test_e2e[data1]",""
+"broken","Thu Jun 04 16:09:02 AEST 2020","Thu Jun 04 16:09:19 AEST 2020","16175","TestCase","test_TC_004_EndToEnd","","","","test_e2e[data0]",""

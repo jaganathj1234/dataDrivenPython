@@ -1,0 +1,56 @@
+{
+  "uid" : "15ca651aae3ac26d",
+  "name" : "test_e2e[data2]",
+  "fullName" : "TestCase.test_TC_004_EndToEnd#test_e2e",
+  "historyId" : "7a78621661d4c51b4b70f5f4b21bdd7a",
+  "time" : {
+    "start" : 1591250969143,
+    "stop" : 1591250985709,
+    "duration" : 16566
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_004_EndToEnd"
+  }, {
+    "name" : "host",
+    "value" : "Alienwarejag"
+  }, {
+    "name" : "thread",
+    "value" : "17932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_TC_004_EndToEnd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "['af3@u3.com', 'ps1234', 'MT3', 'Perth', 'ad3', 'ad4', 'zip', 'phone', 'fax']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15ca651aae3ac26d.json",
+  "parameterValues" : [ "['af3@u3.com', 'ps1234', 'MT3', 'Perth', 'ad3', 'ad4', 'zip', 'phone', 'fax']" ]
+}

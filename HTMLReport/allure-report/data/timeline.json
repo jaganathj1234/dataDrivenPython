@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alienwarejag",
+    "children" : [ {
+      "name" : "17932-MainThread",
+      "children" : [ {
+        "name" : "test_e2e[data2]",
+        "uid" : "15ca651aae3ac26d",
+        "parentUid" : "0eea055467573e8f27894b0d4dbeaad8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591250969143,
+          "stop" : 1591250985709,
+          "duration" : 16566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['af3@u3.com', 'ps1234', 'MT3', 'Perth', 'ad3', 'ad4', 'zip', 'phone', 'fax']" ]
+      }, {
+        "name" : "test_e2e[data0]",
+        "uid" : "72f968b4f1d44846",
+        "parentUid" : "0eea055467573e8f27894b0d4dbeaad8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591250942933,
+          "stop" : 1591250959108,
+          "duration" : 16175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['af1@u1.com', 'ps1234', 'MT1', 'Sydney', 'ad1', 'ad2', 'zip', 'phone', 'fax']" ]
+      }, {
+        "name" : "test_e2e[data1]",
+        "uid" : "d6603558b5072585",
+        "parentUid" : "0eea055467573e8f27894b0d4dbeaad8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591250959306,
+          "stop" : 1591250969095,
+          "duration" : 9789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['af2@u2.com', 'ps1234', 'MT2', 'Melbourne', 'ad2', 'ad3', 'zip', 'phone', 'fax']" ]
+      } ],
+      "uid" : "0eea055467573e8f27894b0d4dbeaad8"
+    } ],
+    "uid" : "25c17f607d89f3ab96ab3232be1d3182"
+  } ]
+}

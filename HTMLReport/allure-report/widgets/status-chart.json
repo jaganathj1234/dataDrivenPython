@@ -1,0 +1,31 @@
+[ {
+  "uid" : "15ca651aae3ac26d",
+  "name" : "test_e2e[data2]",
+  "time" : {
+    "start" : 1591250969143,
+    "stop" : 1591250985709,
+    "duration" : 16566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6603558b5072585",
+  "name" : "test_e2e[data1]",
+  "time" : {
+    "start" : 1591250959306,
+    "stop" : 1591250969095,
+    "duration" : 9789
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "72f968b4f1d44846",
+  "name" : "test_e2e[data0]",
+  "time" : {
+    "start" : 1591250942933,
+    "stop" : 1591250959108,
+    "duration" : 16175
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
